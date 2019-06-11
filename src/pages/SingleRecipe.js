@@ -37,7 +37,9 @@ export default class SingleRecipe extends Component {
     }
     return (
       <div className="container my-5">
+        {/* page divided into 2 columns in this row */}
         <div className="row">
+          {/* left column photo & etc */}
           <div className="col-10 mx-auto col-md-6 my-3">
             <Link
               to="/recipes"
@@ -52,7 +54,7 @@ export default class SingleRecipe extends Component {
               alt="recipe"
             />
           </div>
-          {/* info */}
+          {/* right column info & etc */}
           <div className="col-10 mx-auto col-md-6 my-3">
             <h6 className="text-uppercase">{title}</h6>
             <h6 className="text-warning text-capitalize text-slanted">
