@@ -62,7 +62,7 @@ export default class Recipes extends Component {
     const { base_url, query, search } = this.state;
     this.setState(
       {
-        // concat search url (base_url+query+search), here 'search' is dynamic
+        // concatinate search url (base_url+query+search), here 'search' is dynamic
         url: `${base_url}${query}${search}`,
         search: ""
       },
